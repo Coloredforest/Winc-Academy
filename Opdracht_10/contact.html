@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <h1>contact</h1>
+    </header>
+
+    <main>
+   
+        <form name="contact" method="POST" data-netlify="true" action="/index.html">
+            <p>
+            <label>Naam: <input type="text" name="name" /></label>
+            </p>
+
+            <p>
+            <label>Email: <input type="email" name="email" /></label>    
+            </p>
+
+            <p>
+            <label>Telefoonnummer: <input type="tel"/></label>
+            </p>
+
+            <p>
+            <label>Leeftijd: <input type="number"/></label>    
+            </p>
+
+            <p>
+            <label>Geboortedatum: <input type="date" /></label><br>
+            </p>
+
+            <p>             
+            <label for="Man">Man</label>
+            <input type="radio" id="male" name="geslacht" value="man"><br>
+            <label for="Vrouw">Vrouw</label>
+            <input type="radio" id="female" name="geslacht" value="vrouw">
+            </p>
+
+            <p>
+                <label for="frans">Frans</label>
+                <input type="checkbox" name="Frans" id="gerecht1"> <br>
+                <label for="frans">Italiaans</label>
+                <input type="checkbox" name="Italiaans" id="gerecht2"> <br>        
+                <label for="frans">Spaans</label>
+                <input type="checkbox" name="Spaans" id="gerecht3"><br>
+                <label for="frans">Arabisch</label>
+                <input type="checkbox" name="Arabisch" id="gerecht4">
+            </p>
+
+            <p>
+                <label for="kleurkeuze">Kleurkeuze</label>
+                <input type="color" name="Kleurkeuze" id="Kleurkeuze">
+            </p>  
+
+            <p> 
+            <label>Biografie <br> <textarea name="Biografie" ></textarea></label>
+            </p>   
+
+            <p>
+            <label for="uploadgerecht">Upload gerecht</label>
+            <input type="file" name="uploadgerecht" id="uploadgerecht">
+            </p>
+
+            <p>
+            <label for="linkwebsite">Link naar je receptenwebsite</label>
+            <input type="url" name="linkwebsite" id="linkwebiste">
+            </p>
+
+            <p>
+            <button type="submit">Send</button>    
+            </p>   
+
+            <p>
+            <button type="reset">reset</button>
+            </p> 
+            
+        </form>
+
+    </main>
+</body>
+
+<footer>
+    <h1 id="h1footer">Links in HTML</h1>
+    <nav>
+        <a href="index.html">Homepage</a>
+    </nav>
+</footer>
+
+</html>
